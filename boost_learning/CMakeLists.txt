@@ -14,4 +14,4 @@ set(Boost_USE_MULTITHREADED ON)
 set(Boost_USE_STATIC_RUNTIME OFF)
 #find_package(Boost REQUIRED COMPONENTS filesystem regex)
 
-add_executable(boost_learning main.cpp)
+add_executable(boost_learning base main.cpp)
